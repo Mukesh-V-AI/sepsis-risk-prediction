@@ -14,7 +14,7 @@ An AI-powered early warning system for sepsis risk assessment using machine lear
 ## 🌟 Features
 
 -  **Real-time Predictions** - Instant sepsis risk assessment
--  **Machine Learning** - XGBoost & Random Forest models with 100% accuracy on test data
+-  **Machine Learning** - XGBoost & Random Forest models with high accuracy on test data (synthetic dataset)
 -  **Clinical Decision Support** - Evidence-based recommendations
 -  **Beautiful UI** - Clean, modern interface with gradient design
 -  **REST API** - Easy integration with existing systems
@@ -33,8 +33,8 @@ An AI-powered early warning system for sepsis risk assessment using machine lear
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/sepsis-prediction.git
-cd sepsis-prediction
+git clone https://github.com/Mukesh-V-AI/sepsis-risk-prediction.git
+cd sepsis-risk-prediction
 ```
 
 2. **Create virtual environment**
@@ -151,7 +151,7 @@ Content-Type: application/json
 ## 📁 Project Structure
 
 ```
-sepsis-prediction/
+sepsis-risk-prediction/
 ├── index.html                   # Frontend web interface
 ├── generate_sample_data.py      # Sample data generator
 ├── requirements.txt             # Python dependencies
@@ -225,4 +225,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - PhysioNet for clinical datasets
 - Surviving Sepsis Campaign for guidelines
 - Open-source ML community
-
